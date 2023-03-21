@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="grid-container">
+			<div id="display">0</div>
+			<button id="AC" class="gumb gray" onclick="clearData()">AC</button>
+			<button id="divide" class="gumb orange" onclick="operationInput('/')">&divide</button>
+			<button id="num7" class="gumb" onclick="userInput('7');">7</button>
+			<button id="num8" class="gumb" onclick="userInput('8');">8</button>
+			<button id="num9" class="gumb" onclick="userInput('9');">9</button>
+			<button id="multiply" class="gumb orange" onclick="operationInput('*')">&times</button>
+			<button id="num4" class="gumb" onclick="userInput('4');">4</button>
+			<button id="num5" class="gumb" onclick="userInput('5');">5</button>
+			<button id="num6" class="gumb" onclick="userInput('6');">6</button>
+			<button id="subtraction" class="gumb orange" onclick="operationInput('-')">-</button>
+			<button id="num1" class="gumb" onclick="userInput('1');">1</button>
+			<button id="num2" class="gumb" onclick="userInput('2');">2</button>
+			<button id="num3" class="gumb" onclick="userInput('3');">3</button>
+			<button id="addition" class="gumb orange" onclick="operationInput('+')">+</button>
+			<button id="num0" class="gumb" onclick="userInput('0');">0</button>
+			<button id="koma" class="gumb" onclick="userInput(',');">,</button>
+			<button id="jenako" class="gumb orange" onclick="calculate()">=</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
